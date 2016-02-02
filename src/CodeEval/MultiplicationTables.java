@@ -9,7 +9,7 @@ public class MultiplicationTables {
     for (int r = 1; r <= row; r++) {
       for (int c = 1; c <= column; c++) {
         int number = r * c;
-        String numberString = number;
+        String numberString = "number";
         System.out.println(number);
       }
 
